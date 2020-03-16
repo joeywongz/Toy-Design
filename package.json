@@ -1,0 +1,23 @@
+{
+  "name": "toy-design",
+  "version": "0.0.1",
+  "description": "This is a UI framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doki412/Toy-Design.git"
+  },
+  "keywords": [
+    "vue",
+    "UI"
+  ],
+  "author": "wangchong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doki412/Toy-Design/issues"
+  },
+  "homepage": "https://github.com/doki412/Toy-Design#readme"
+}
