@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/doki412/Toy-Design/issues"
   },
-  "homepage": "https://github.com/doki412/Toy-Design#readme"
+  "homepage": "https://github.com/doki412/Toy-Design#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
