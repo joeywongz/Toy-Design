@@ -1,5 +1,5 @@
 Vue.component('t-button', {
     template: `
-    <button>hi</button>
+    <button class="t-button">hi</button>
     `
 })
