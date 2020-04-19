@@ -27,20 +27,33 @@
         #app {
             margin: 20px;
         }
+
         body {
             font-size: var(--font-size);
         }
     </style>
     <style>
-
+        .icon {
+            width: 1em;
+            height: 1em;
+        }
     </style>
 </head>
 
 <body>
     <div id="app">
-        <t-button>按钮</t-button>
+        <t-button icon="settings">
+            按钮
+        </t-button>
+        <t-button icon="settings" icon-position="left">
+            按钮
+        </t-button>
+        <t-button icon="settings" icon-position="right">
+            按钮
+        </t-button>
     </div>
     <script src="./src/app.js"></script>
+    <script src="//at.alicdn.com/t/font_1765326_gc36ot8qlp.js"></script>
 
 </body>
 
