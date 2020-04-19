@@ -7,4 +7,9 @@ Vue.component('t-icon', Icon);
 
 new Vue({
     el: '#app',
+    data: {
+        isLoading1: false,
+        isLoading2: false,
+        isLoading3: false,
+    }
 })

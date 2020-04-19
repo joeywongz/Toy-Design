@@ -39,13 +39,13 @@
 
 <body>
     <div id="app">
-        <t-button>
+        <t-button :loading="isLoading1" @click="isLoading1 = !isLoading1">
             按钮
         </t-button>
-        <t-button icon="settings" icon-position="left">
+        <t-button icon="settings" icon-position="left" :loading="isLoading2" @click="isLoading2 = !isLoading2">
             按钮
         </t-button>
-        <t-button icon="settings" icon-position="right">
+        <t-button icon="settings" icon-position="right" :loading="isLoading3" @click="isLoading3 = !isLoading3">
             按钮
         </t-button>
     </div>
