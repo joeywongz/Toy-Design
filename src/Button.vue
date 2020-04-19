@@ -1,6 +1,7 @@
 <template>
         <button class="t-button" :class="{[`icon-${iconPosition}`]: true}">
-            <t-icon v-if="icon" :name="icon"></t-icon>
+            <t-icon class="icon" v-if="icon" :name="icon"></t-icon>
+            <t-icon name="loading"></t-icon>
             <div class="content">
                 <slot></slot>
             </div>
@@ -40,7 +41,7 @@
         &:focus {
             outline: none;
         }
-        > .t-icon {
+        > .icon {
                 order: 1;
                 margin-right: .1em;
             }
@@ -48,10 +49,10 @@
                 order: 2;
             }
         &.icon-right{
-            > .t-icon {
+            > .icon {
                 order: 2;
                 margin-right: 0;
-                margin-left: .3em;
+                margin-left: .1em;
             }
             > .content {
                 order: 1;
